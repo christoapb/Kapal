@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.brnunes.swipeablecardview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wave"
+        android:label="Ship Inspector"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Procurement"
+            android:label="Procurement" />
+        <activity
+            android:name=".ProcContractForm"
+            android:label="Procurement Contract Form" />
+        <activity
+            android:name=".ProcShippingForm"
+            android:label="Procurement Shipping Form" />
+        <activity
+            android:name=".ProcArrivalForm"
+            android:label="Procurement Arrival Form" />
+        <activity
+            android:name=".ProcMatIdentForm"
+            android:label="Procurement Material Identification Form" />
+        <activity android:name=".ChooseShips" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HullConstruction"
+            android:label="Hull Construction" />
+        <activity
+            android:name=".TankTest"
+            android:label="Tank Test" />
+        <activity
+            android:name=".PaintingCorrosion"
+            android:label="Painting and Corrosion Protection" />
+        <activity android:name=".Machinery" />
+        <activity android:name=".ElectricOutfitting" />
+        <activity android:name=".HullOutfitting" />
+        <activity android:name=".PipingValve" />
+        <activity android:name=".SparepartInventory" />
+        <activity android:name=".SepatuLuncurForm" />
+        <activity android:name=".DokApungForm" />
+        <activity android:name=".CaraLainForm" />
+        <activity android:name=".AirBagForm" />
+        <activity android:name=".Inclining" />
+        <activity android:name=".Commisioning" />
+        <activity android:name=".SeaTrial" />
+        <activity android:name=".CommisionForm" />
+        <activity android:name=".SeaTrialForm" />
+        <activity android:name=".Meeting" />
+        <activity android:name=".TankTestAcceptedForm" />
+        <activity android:name=".BlockInspectForm" />
+        <activity android:name=".AssemblyAcceptedForm" />
+        <activity android:name=".HcWeldingInspectForm" />
+        <activity android:name=".HcErectionAccepted"></activity>
+    </application>
+
+</manifest>
