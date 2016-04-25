@@ -113,6 +113,10 @@ public class Procurement extends AppCompatActivity {
             private Button button2;
             private Button button3;
             private Button button4;
+            boolean check1=false;
+            boolean check2=false;
+            boolean check3=false;
+            boolean check4=false;
 
             public ViewHolder(View itemView) {
                 super(itemView);
@@ -126,6 +130,7 @@ public class Procurement extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         //onItemTouchListener.onContractClick(v, getLayoutPosition());
+                        check1=true;
                         startActivity(new Intent(Procurement.this, ProcContractForm.class));
                     }
                 });
@@ -134,6 +139,7 @@ public class Procurement extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         //onItemTouchListener.onShippingClick(v, getLayoutPosition());
+                        check2=true;
                         startActivity(new Intent(Procurement.this, ProcShippingForm.class));
                     }
                 });
@@ -142,6 +148,7 @@ public class Procurement extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         //onItemTouchListener.onArrivalClick(v, getLayoutPosition());
+                        check3=true;
                         startActivity(new Intent(Procurement.this, ProcArrivalForm.class));
                     }
                 });
@@ -150,10 +157,15 @@ public class Procurement extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                        // onItemTouchListener.onMatIdentClick(v, getLayoutPosition());
+                        check4=true;
                         startActivity(new Intent(Procurement.this, ProcMatIdentForm.class));
                     }
                 });
 
+                if(check1){button1.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));}
+                if(check2){button2.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));}
+                if(check3){button3.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));}
+                if(check4){button4.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));}
 
                 itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
