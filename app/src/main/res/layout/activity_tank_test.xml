@@ -36,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="Preparation"
                 android:textSize="9sp" />
 
@@ -44,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="internal check"
                 android:textSize="9sp" />
 
@@ -52,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="general check"
                 android:textSize="10sp" />
 
@@ -60,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="accepted"
                 android:textSize="9sp" />
         </LinearLayout>

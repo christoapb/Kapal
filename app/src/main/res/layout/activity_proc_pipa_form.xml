@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="12dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Komponen :"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/nama_komponen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Item 1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Jenis :"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/jenis_komponen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pipa"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ID Komponen : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/id_komponen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Blok : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/nama_blok"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Ukuran Pipa : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_ukuran"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ukuran"/>
+            <EditText
+                android:id="@+id/standard_ukuran"
+                android:textSize="12sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Visual Check : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_visual"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Kondisi Real"/>
+            <EditText
+                android:id="@+id/standard_visual"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Cacat Bentuk : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_bentuk"
+                android:textSize="12sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Kondisi Real"/>
+            <EditText
+                android:id="@+id/standard_bentuk"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Cacat Permukaan : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_permukaan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Kondisi Real"/>
+            <EditText
+                android:id="@+id/standard_permukaan"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas4"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Lubang : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_lubang"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Kondisi Real"/>
+            <EditText
+                android:id="@+id/standard_lubang"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Quantity : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_quantity"
+                android:textSize="12sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Kondisi Real"/>
+            <EditText
+                android:id="@+id/standard_quantity"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Grade/Type : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_grade"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Grade"/>
+            <EditText
+                android:id="@+id/standard_grade"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas7"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="No Serificate : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_sertificate"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="No Sertificate"/>
+            <EditText
+                android:id="@+id/standard_sertificate"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas8"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Maker/Supplier : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_maker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Maker/Supplier"/>
+            <EditText
+                android:id="@+id/standard_maker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Tanggal Produksi : "
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/item_tanggal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:hint="Date"/>
+            <EditText
+                android:id="@+id/standard_tanggal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:hint="Standard"/>
+            <EditText
+                android:id="@+id/pengawas10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:hint="Pengawas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Class Approval : " />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Accept" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Reject" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kondisi : " />
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:clickable="true"
+                android:onClick="openHelp"
+                android:text="Bantuan"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:text="Maker Drawing" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Accept" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Reject" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Pictures"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan / Catatan :" />
+
+        <EditText
+            android:id="@+id/catatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="QC Inspector : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/qc_inspector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="QA Coordinator : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/qa_coordinator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="State Regulator : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/state_regulator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Class Surveyor : "
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/class_surveyor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date : " />
+
+            <TextView
+                android:id="@+id/dateContract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="32dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Submit"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Main Menu"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

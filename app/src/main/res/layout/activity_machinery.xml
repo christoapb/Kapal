@@ -50,6 +50,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="fabrication"
                         android:textSize="10sp" />
 
@@ -58,6 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="install on board"
                         android:textSize="10sp" />
 
@@ -66,6 +68,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="fit up on board"
                         android:textSize="10sp" />
 
@@ -94,6 +97,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="install on board"
                         android:textSize="10sp" />
 
@@ -102,6 +106,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="system connect"
                         android:textSize="10sp" />
 
@@ -110,6 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="final inspect"
                         android:textSize="10sp" />
 
@@ -118,6 +124,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="testing"
                         android:textSize="10sp" />
 

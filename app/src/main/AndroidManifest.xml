@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.brnunes.swipeablecardview">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -63,7 +64,12 @@
         <activity android:name=".BlockInspectForm" />
         <activity android:name=".AssemblyAcceptedForm" />
         <activity android:name=".HcWeldingInspectForm" />
-        <activity android:name=".HcErectionAccepted"></activity>
+        <activity android:name=".HcErectionAccepted" />
+        <activity android:name=".ProcActivity" />
+        <activity android:name=".ProcListActivity" />
+        <activity android:name=".ProcPipaForm" />
+        <activity android:name=".ProcPelatForm" />
+        <activity android:name=".ProcProfilForm"></activity>
     </application>
 
 </manifest>

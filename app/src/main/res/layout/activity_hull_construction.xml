@@ -50,6 +50,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="start fab"
                         android:textSize="10sp" />
 
@@ -58,6 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="marking and cutting"
                         android:textSize="10sp" />
 
@@ -66,6 +68,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="finish fab"
                         android:textSize="10sp" />
 
@@ -95,6 +98,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="fitup process"
                         android:textSize="9sp" />
 
@@ -103,6 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="weld process"
                         android:textSize="9sp" />
 
@@ -112,6 +117,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="block inspect"
+                        android:background="@drawable/ic_button"
                         android:textSize="9sp" />
 
                     <Button
@@ -119,6 +125,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="Accepted"
                         android:textSize="9sp" />
 
@@ -155,6 +162,7 @@
                     <Button
                         android:id="@+id/button_hull_erection_la"
                         android:layout_width="wrap_content"
+                        android:background="@drawable/ic_button"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Loading and Adjusting"
@@ -165,6 +173,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="welding process"
                         android:textSize="9sp" />
 
@@ -173,6 +182,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="welding inspect"
                         android:textSize="9sp" />
 
@@ -181,6 +191,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:background="@drawable/ic_button"
                         android:text="accepted"
                         android:textSize="9sp" />
 

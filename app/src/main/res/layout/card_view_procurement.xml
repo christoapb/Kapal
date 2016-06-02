@@ -36,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="contract"
                 android:textSize="10sp" />
 
@@ -44,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="shipping"
                 android:textSize="10sp" />
 
@@ -52,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="arrival at yard"
                 android:textSize="10sp" />
 
@@ -60,6 +63,7 @@
                 android:layout_width="99dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/ic_button"
                 android:text="material identification"
                 android:textSize="8sp" />
         </LinearLayout>

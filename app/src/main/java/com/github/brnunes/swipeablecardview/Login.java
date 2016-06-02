@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        //Toast.makeText(Login.this, "situ", Toast.LENGTH_LONG).show();
         //Initializing views
         editTextEmail = (EditText) findViewById(R.id.login_email);
         editTextPassword = (EditText) findViewById(R.id.login_password);
@@ -49,6 +49,8 @@ public class Login extends AppCompatActivity {
                 // Check for empty data in the form
                 if (!email.isEmpty() && !password.isEmpty()) {
                     // login user
+                    //Log.d("aku","cinta");
+                    //Toast.makeText(getApplicationContext(), "situ", Toast.LENGTH_LONG).show();
                     login(email, password);
                 } else {
                     // Prompt user to enter credentials
